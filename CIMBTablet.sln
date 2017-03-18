@@ -1,0 +1,77 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CIMBTablet", "http://localhost:32875", "{3B94B14E-ABBC-4E3E-BCC5-E59744C28F10}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""
+		SccAuxPath = ""
+		SccLocalPath = ""
+		SccProvider = ""
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5"
+		ProjectReferences = "{606cf605-ce91-49df-a096-f7585ff56b23}|CIMBTablet.DAL.dll;"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_32875"
+		Debug.AspNetCompiler.PhysicalPath = "..\CIMBTablet\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32875\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_32875"
+		Release.AspNetCompiler.PhysicalPath = "..\CIMBTablet\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32875\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\CIMBTablet\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+	ProjectSection(ProjectDependencies) = postProject
+		{400F0F28-532C-43CA-8112-287EDE0FB391} = {400F0F28-532C-43CA-8112-287EDE0FB391}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{6CF596D8-2449-49DE-AFD0-01BDEFA31C3D}"
+	ProjectSection(SolutionItems) = preProject
+		WE-Markdown.css = WE-Markdown.css
+		WebEssentials2015-Settings.json = WebEssentials2015-Settings.json
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TabletWrapper", "..\TabletWrapper\TabletWrapper.csproj", "{400F0F28-532C-43CA-8112-287EDE0FB391}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CIMBTablet.DAL", "..\CIMBTablet.DAL\CIMBTablet.DAL.csproj", "{606CF605-CE91-49DF-A096-F7585FF56B23}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CimbInternal", "..\CimbInternal\CimbInternal.csproj", "{49F33AB6-4BAB-49A5-9D52-C4B759EAB91A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B94B14E-ABBC-4E3E-BCC5-E59744C28F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B94B14E-ABBC-4E3E-BCC5-E59744C28F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B94B14E-ABBC-4E3E-BCC5-E59744C28F10}.Release|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B94B14E-ABBC-4E3E-BCC5-E59744C28F10}.Release|Any CPU.Build.0 = Debug|Any CPU
+		{400F0F28-532C-43CA-8112-287EDE0FB391}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{400F0F28-532C-43CA-8112-287EDE0FB391}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{400F0F28-532C-43CA-8112-287EDE0FB391}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{400F0F28-532C-43CA-8112-287EDE0FB391}.Release|Any CPU.Build.0 = Release|Any CPU
+		{606CF605-CE91-49DF-A096-F7585FF56B23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{606CF605-CE91-49DF-A096-F7585FF56B23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{606CF605-CE91-49DF-A096-F7585FF56B23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{606CF605-CE91-49DF-A096-F7585FF56B23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49F33AB6-4BAB-49A5-9D52-C4B759EAB91A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49F33AB6-4BAB-49A5-9D52-C4B759EAB91A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49F33AB6-4BAB-49A5-9D52-C4B759EAB91A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49F33AB6-4BAB-49A5-9D52-C4B759EAB91A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		VisualSVNWorkingCopyRoot = ..
+	EndGlobalSection
+EndGlobal

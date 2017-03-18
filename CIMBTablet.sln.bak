@@ -1,0 +1,52 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "CIMBTablet", "http://localhost:32875", "{3B94B14E-ABBC-4E3E-BCC5-E59744C28F10}"
+	ProjectSection(WebsiteProperties) = preProject
+		SccProjectName = ""$/CIMBTablet/CIMBTablet", FUAAAAAA"
+		SccAuxPath = ""
+		SccLocalPath = "."
+		SccProvider = "MSSCCI:Microsoft Visual SourceSafe"
+		UseIISExpress = "true"
+		TargetFrameworkMoniker = ".NETFramework,Version%3Dv4.5.1"
+		Debug.AspNetCompiler.VirtualPath = "/localhost_32875"
+		Debug.AspNetCompiler.PhysicalPath = "..\..\WebSites\CIMBTablet\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32875\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/localhost_32875"
+		Release.AspNetCompiler.PhysicalPath = "..\..\WebSites\CIMBTablet\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\localhost_32875\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		SlnRelativePath = "..\..\WebSites\CIMBTablet\"
+		DefaultWebSiteLanguage = "Visual C#"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SourceCodeControl) = preSolution
+		SccNumberOfProjects = 2
+		SccLocalPath0 = .
+		SccWebProject1 = true
+		SccProjectUniqueName1 = http://localhost:32875
+		SccProjectName1 = \u0022$/CIMBTablet/CIMBTablet\u0022,\u0020FUAAAAAA
+		SccLocalPath1 = C:\\Users\\Siravit\\Documents\\Visual\u0020Studio\u00202013\\WebSites\\CIMBTablet
+		SccProjectEnlistmentChoice1 = 2
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3B94B14E-ABBC-4E3E-BCC5-E59744C28F10}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B94B14E-ABBC-4E3E-BCC5-E59744C28F10}.Debug|Any CPU.Build.0 = Debug|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
